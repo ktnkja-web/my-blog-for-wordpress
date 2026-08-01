@@ -84,10 +84,15 @@
 
 .p-contact__control--radio {
     padding-top: 1rem;
+
+    .wpcf7-list-item:not(:last-child) {
+        margin-right: 3rem;
+    }
 }
 
 .p-contact__item--radio input {
     height: auto;
+    margin-right: 0.3rem;
 }
 
 .wpcf7-list-item label {
