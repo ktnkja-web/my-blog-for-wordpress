@@ -140,6 +140,7 @@ function custom_allowed_block_types($allowed_blocks, $editor_context)
             'core/paragraph', // 本文（段落）
             'core/image',     // 画像
             'core/heading',   // サブタイトル用（見出し）
+            'loos-hcb/code-block', //Highlighting Code Block
         );
     }
     // それ以外の投稿タイプ（固定ページなど）はすべてのブロックを許可
