@@ -11,7 +11,7 @@
                             <h2 class="p-archive-news__title">
                                 <?php
                                 $title = get_the_title();
-                                echo esc_html(mb_strimwidth($title, 0, 43, '...'));
+                                echo esc_html(mb_strimwidth($title, 0, 43, '...', 'UTF-8'));
                                 ?>
                             </h2>
                             <time class="p-archive-news__time" datetime="<?php echo esc_attr(get_the_date('Y-m-d')); ?>"><?php echo esc_html(get_the_date()); ?></time>

@@ -12,12 +12,12 @@
                                 <h2 class="p-archive__title">
                                     <?php
                                     $title = get_the_title();
-                                    echo esc_html(mb_strimwidth($title, 0, 43, '...'));
+                                    echo esc_html(mb_strimwidth($title, 0, 43, '...', 'UTF-8'));
                                     ?>
                                 </h2>
                                 <p>
                                     <?php $excerpt = get_the_excerpt();
-                                    echo esc_html(mb_strimwidth($excerpt, 0, 86, '......')); ?>
+                                    echo esc_html(mb_strimwidth($excerpt, 0, 86, '......', 'UTF-8')); ?>
                                 </p>
                                 <p class="p-archive__time">更新日： <time datetime="<?php echo esc_attr(get_the_date('Y-m-d')); ?>"><?php echo esc_html(get_the_date()); ?></time>
                                 </p>

@@ -12,7 +12,7 @@
                         <h2 class="p-allpost-archive__title">
                             <?php
                             $title = get_the_title();
-                            echo esc_html(mb_strimwidth($title, 0, 43, '...'));
+                            echo esc_html(mb_strimwidth($title, 0, 43, '...', 'UTF-8'));
                             ?>
                         </h2>
                         <?php

@@ -43,10 +43,12 @@ if ($component_query->have_posts()) : ?>
                                 ]); ?>
                             <?php endif; ?>
                             <<?php echo $body_tag; ?> class="p-sidebar-posts__body">
-                                <h3 class="p-sidebar-posts__post-title--<?php echo esc_attr($modifier); ?>"><?php
-                                                                                                            $title = get_the_title();
-                                                                                                            echo esc_html(mb_strimwidth($title, 0, 43, '...'));
-                                                                                                            ?></h3>
+                                <h3 class="p-sidebar-posts__post-title--<?php echo esc_attr($modifier); ?>">
+                                    <?php
+                                    $title = get_the_title();
+                                    echo esc_html(mb_strimwidth($title, 0, 43, '...', 'UTF-8'));
+                                    ?>
+                                </h3>
                                 <time class="p-sidebar-posts__time p-sidebar-posts__time" datetime="<?php echo esc_attr(get_the_date('c')); ?>"><?php echo esc_html(get_the_date()); ?></time>
                             </<?php echo $body_tag; ?>>
                         </<?php echo $wrapper_tag; ?>>

@@ -23,7 +23,7 @@ $modifier = $args['modifier'] ?? '';
                 <h3 class="p-journal-card__title">
                     <?php
                     $title = get_the_title();
-                    echo esc_html(mb_strimwidth($title, 0, 43, '...'));
+                    echo esc_html(mb_strimwidth($title, 0, 43, '...', 'UTF-8'));
                     ?>
                 </h3>
 
