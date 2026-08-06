@@ -23,6 +23,12 @@
     }
 }
 
+.p-single__title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .p-single__content {
     h2 {
         margin-bottom: 2rem;
@@ -51,5 +57,13 @@
     p {
         max-width: 750px;
         margin-bottom: 2.5rem;
+    }
+}
+
+.p-single__ad-text {
+    margin-bottom: 1rem;
+
+    &:hover {
+        color: var(--color-accent);
     }
 }

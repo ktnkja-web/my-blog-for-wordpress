@@ -613,6 +613,15 @@ body.no-scroll {
   border-bottom: none;
 }
 
+.c-ad-badge {
+  font-size: var(--fs-md);
+  font-weight: bold;
+  color: var(--text-sub);
+  border: var(--color-accent) 3px solid;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+}
+
 .u-mb-8 {
   margin-bottom: 4rem;
 }
@@ -1629,6 +1638,12 @@ input[type=checkbox].p-contact__checkbox {
   }
 }
 
+.p-single__title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .p-single__content h2 {
   margin-bottom: 2rem;
   font-weight: bold;
@@ -1653,6 +1668,13 @@ input[type=checkbox].p-contact__checkbox {
 .p-single__content p {
   max-width: 750px;
   margin-bottom: 2.5rem;
+}
+
+.p-single__ad-text {
+  margin-bottom: 1rem;
+}
+.p-single__ad-text:hover {
+  color: var(--color-accent);
 }
 
 .p-thanks-title {
