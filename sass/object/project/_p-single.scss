@@ -58,6 +58,29 @@
         max-width: 750px;
         margin-bottom: 2.5rem;
     }
+
+    .wp-block-list {
+        margin-left: 0.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    li {
+        list-style: none;
+        position: relative;
+        padding-left: 2.5rem;
+        margin-bottom: 1rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.7rem;
+            width: 0.8rem;
+            height: 0.8rem;
+            border: 2px solid var(--color-accent);
+            border-radius: 50%;
+        }
+    }
 }
 
 .p-single__ad-text {
