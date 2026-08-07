@@ -1693,6 +1693,9 @@ input[type=checkbox].p-contact__checkbox {
 .p-single__ad-text {
   margin-bottom: 1rem;
 }
+.p-single__ad-text a {
+  border-bottom: 2px dashed var(--color-accent);
+}
 .p-single__ad-text:hover {
   color: var(--color-accent);
 }

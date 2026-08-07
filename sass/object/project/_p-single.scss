@@ -86,6 +86,10 @@
 .p-single__ad-text {
     margin-bottom: 1rem;
 
+    a {
+        border-bottom: 2px dashed var(--color-accent);
+    }
+
     &:hover {
         color: var(--color-accent);
     }
