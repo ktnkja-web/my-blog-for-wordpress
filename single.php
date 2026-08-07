@@ -30,9 +30,11 @@
                             <a href="https://px.a8.net/svt/ejp?a8mat=4B9XTC+DWPKJ6+1QM6+HYFLU" rel="nofollow noopener" target="_blank">【簡単バランスごはん】栄養士の献立で簡単レシピのヨシケイ♪<BR>初回キャンペーン中！</a>
                             <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4B9XTC+DWPKJ6+1QM6+HYFLU" alt="">
                         </div>
-                        <a href="https://px.a8.net/svt/ejp?a8mat=4B9XTC+DWPKJ6+1QM6+I17WX" rel="nofollow noopener" target="_blank">
-                            <img border="0" width="300" height="250" alt="" src="https://www22.a8.net/svt/bgt?aid=260804208841&wid=001&eno=01&mid=s00000008115003029000&mc=1"></a>
-                        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4B9XTC+DWPKJ6+1QM6+I17WX" alt="">
+                        <div class="p-single__ad-banner">
+                            <a href="https://px.a8.net/svt/ejp?a8mat=4B9XTC+DWPKJ6+1QM6+I17WX" rel="nofollow noopener" target="_blank">
+                                <img border="0" width="300" height="250" alt="" src="https://www22.a8.net/svt/bgt?aid=260804208841&wid=001&eno=01&mid=s00000008115003029000&mc=1"></a>
+                            <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4B9XTC+DWPKJ6+1QM6+I17WX" alt="">
+                        </div>
                     </article>
                 <?php endif; ?>
 

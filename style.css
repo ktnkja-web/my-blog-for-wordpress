@@ -1691,13 +1691,25 @@ input[type=checkbox].p-contact__checkbox {
 }
 
 .p-single__ad-text {
-  margin-bottom: 1rem;
+  text-align: center;
+  margin: 3rem 0;
 }
 .p-single__ad-text a {
-  border-bottom: 2px dashed var(--color-accent);
+  display: inline-block;
+  background-color: #d9825b;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
 }
-.p-single__ad-text:hover {
-  color: var(--color-accent);
+.p-single__ad-text a:hover {
+  background-color: #c76f47;
+}
+
+.p-single__ad-banner {
+  text-align: center;
 }
 
 .p-thanks-title {
