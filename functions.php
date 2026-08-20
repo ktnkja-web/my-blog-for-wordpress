@@ -142,6 +142,7 @@ function custom_allowed_block_types($allowed_blocks, $editor_context)
             'core/heading',   // サブタイトル用（見出し）
             'core/list',      // リスト全体（ul/ol）
             'core/list-item', // リスト項目（li）
+            'core/quote',     // 引用ブロック（blockquote / cite）を追加
             'loos-hcb/code-block', //Highlighting Code Block
         );
     }
