@@ -1712,6 +1712,33 @@ input[type=checkbox].p-contact__checkbox {
   text-align: center;
 }
 
+.wp-block-quote {
+  padding-left: 1rem;
+  margin-bottom: 2.5rem;
+  color: var(--text-sub);
+  border-left: 3px solid var(--color-accent);
+}
+.wp-block-quote cite {
+  font-style: inherit;
+}
+.wp-block-quote cite a {
+  border-bottom: 1.5px solid var(--text-sub);
+  transition: all 0.2s ease;
+}
+.wp-block-quote cite a:hover {
+  color: var(--color-accent);
+  border-bottom: 1.5px solid var(--color-accent);
+}
+.wp-block-quote cite::before {
+  content: "（引用元：";
+}
+.wp-block-quote cite::after {
+  content: "）";
+}
+.wp-block-quote p:last-of-type {
+  margin-bottom: 1rem;
+}
+
 .p-thanks-title {
   text-align: center;
   padding: 8rem 0 2rem;
